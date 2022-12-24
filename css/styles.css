@@ -713,9 +713,11 @@ p {
 .form-field {
   display: flex;
   flex-direction: column;
-
   margin-bottom: 10px;
   outline: none;
+}
+.form-field:last-of-type {
+  margin-bottom: 20px;
 }
 .form-field label {
   margin-bottom: 4px;
@@ -839,7 +841,6 @@ p {
 .label-check {
   display: inline-flex;
   justify-content: center;
-  margin-top: 10px;
   margin-bottom: 30px;
 }
 .modal .modal-link {
